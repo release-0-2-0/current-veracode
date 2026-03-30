@@ -103,7 +103,7 @@ jobs:
       - name: Veracode Policy Results
         id: prepare-results
         if: always()
-        uses: veracode/github-actions-integration-helper@v0.1.9
+        uses: veracode/github-actions-integration-helper@v0.1.8
         with:
           action: 'preparePolicyResults'
           token: ${{ inputs.token }}
